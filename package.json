@@ -2,7 +2,7 @@
     "name": "softinc-snippets",
     "displayName": "Software Inc. Snippets",
     "description": "Snippets for Software Inc XML files.",
-    "version": "1.0",
+    "version": "1.0.1",
     "icon": "icon.png",
     "license": "MIT",
     "repository": {

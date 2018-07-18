@@ -1,7 +1,9 @@
 # Change Log
-All notable changes to the "nickal-softinc-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Released]
+- V 1.0.1
 
-## [Unreleased]
-- Initial release
+    * Updated README
+    * Added Force tag
+
+- V 1.0
