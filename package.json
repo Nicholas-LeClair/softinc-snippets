@@ -3,6 +3,12 @@
     "displayName": "Software Inc. Snippets",
     "description": "Snippets for Software Inc XML files.",
     "version": "1.0",
+    "icon": "icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "GitHub",
+        "url": "https://github.com/Nicholas-LeClair/softinc-snippets"
+    },
     "publisher": "Nickal",
     "engines": {
         "vscode": "^1.25.0"
