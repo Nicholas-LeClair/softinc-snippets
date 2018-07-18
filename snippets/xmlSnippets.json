@@ -1,0 +1,506 @@
+{
+	"New_SoftwareType": {
+        "prefix": "New SoftwareType",
+        "body": [
+			"<SoftwareType>",
+			"    <Name></Name>",
+			"    <Unlock></Unlock>",
+			"    <Category></Category>",
+			"    <Description></Description>",
+			"    <Random></Random>",
+			"",                
+			"    <Categories>",
+			"        <Category Name=''>",
+			"            <Description></Description>",
+			"            <Unlock></Unlock>",
+			"            <Popularity></Popularity>",
+			"            <Retention></Retention>",
+			"            <TimeScale></TimeScale>",
+			"            <Iterative></Iterative>",
+			"        </Category>",
+			"    </Categories>",
+			"",        
+			"    <OSSpecific></OSSpecific>",
+			"    <OneClient></OneClient>",
+			"    <InHouse></InHouse>",
+			"    <NameGenerator></NameGenerator>",
+			"",
+			"   <Features>",        
+			"       <Feature Forced=''>",
+			"            <Name></Name>",
+			"            <Category></Category>",
+			"            <Description></Description>",
+			"            <DevTime></DevTime>",
+			"            <Innovation></Innovation>",
+			"            <Usability></Usability>",
+			"            <Stability></Stability>",
+			"            <CodeArt></CodeArt>",
+			"        </Feature>", 
+			"   </Features>",
+			"",        
+			"</SoftwareType>"
+        ],
+        "description": "Base file for software type"
+	},
+	
+	"SoftwareType": {
+		"prefix": "SoftwareType",
+		"body": [
+			"<SoftwareType>",
+			"</SoftwareType>"
+		],
+		"description": "Required tag to define software type."
+	},
+
+	"Name": {
+		"prefix": "Name",
+		"body": [
+			"<Name></Name>"
+		],
+		"description": "Name of software."
+	},
+
+	"Unlock": {
+		"prefix": "Unlock",
+		"body": [
+			"<Unlock></Unlock>"
+		],
+		"description": "Year software is available in game."
+	},
+
+	"Category": {
+		"prefix": "Category",
+		"body": [
+			"<Category></Category>"
+		],
+		"description": "Category of software."
+	},
+
+	"Description": {
+		"prefix": "Description",
+		"body": [
+			"<Description></Description>"
+		],
+		"description": "Description of software."
+	},
+
+	"Random": {
+		"prefix": "Random",
+		"body": [
+			"<Random></Random>"
+		],
+		"description": "Suggested price of software, this value should be between 0.5 - 1.35"
+	},
+
+	"Categories": {
+		"prefix": "Categories",
+		"body": [
+			"<Categories>",
+			"</Categories>"
+		],
+		"description": "Sub categories, for example console and desktop."
+	},
+
+	"SubCatPopularity": {
+		"prefix": "Popularity",
+		"body": [
+			"<Popularity></Popularity>"
+		],
+		"description": "Popularity for sub category."
+	},
+
+	"SubCatRetention": {
+		"prefix": "Retention",
+		"body": [
+			"<Retention></Retention>"
+		],
+		"description": "Retention for sub category."
+	},
+
+	"SubCatTimeScale": {
+		"prefix": "TimeScale",
+		"body": [
+			"<TimeScale></TimeScale>"
+		],
+		"description": "TimeScale for sub category"
+	},
+
+	"SubCatIterative": {
+		"prefix": "Iterative",
+		"body": [
+			"<Iterative></Iterative>"
+		],
+		"description": "How likely AI companies are to make sequels of this software."
+	},
+
+	"OSSpecific": {
+		"prefix": "OSSpecific",
+		"body": [
+			"<OSSpecific></OSSpecific>"
+		],
+		"description": "If set to true you have to pick an operating system."
+	},
+
+	"OneClient": {
+		"prefix": "OneClient",
+		"body": [
+			"<OneClient></OneClient>"
+		],
+		"description": "Sets wether this is for contract work, leave as FALSE for now."
+	},
+
+	"InHouse": {
+		"prefix": "InHouse",
+		"body": [
+			"<InHouse></InHouse>"
+		],
+		"description": "If set to true user can choose if they want it to be only for their company."
+	},
+
+	"NameGenerator": {
+		"prefix": "NameGenerator",
+		"body": [
+			"<NameGenerator></NameGenerator>"
+		],
+		"description": "Uses specified text file in NameGenerators folder for the default names, this will also be used by AI companies."
+	},
+
+	"OSLimit": {
+		"prefix": "OSLimit",
+		"body": [
+			"<OSLimit></OSLimit>"
+		],
+		"description": "If OSSpecific is enabled this will allow you to limit it to different OS categories."
+	},
+
+	"IdealPrice": {
+		"prefix": "IdealPrice",
+		"body": [
+			"<IdealPrice></IdealPrice>"
+		],
+		"description": "Ideal price will be suggested to user when making software, and is also used by AI companies."
+	},
+
+	"Features": {
+		"prefix": "Features",
+		"body": [
+			"<Features>",
+			"</Features>"
+		],
+		"description": "All the features for the software."
+	},
+
+	"NewFeature": {
+		"prefix": "New Feature",
+		"body": [
+			"<Feature>",
+			"    <Name></Name>",
+			"    <Category></Category>",
+			"    <Description></Description>",
+			"    <DevTime></DevTime>",
+			"    <Innovation></Innovation>",
+			"    <Usability></Usability>",
+			"    <Stability></Stability>",
+			"    <CodeArt></CodeArt>",
+			"</Feature>"
+		],
+		"description": "Creates new blank feature."
+	},
+
+	"Feature": {
+		"prefix": "Feature",
+		"body": [
+			"<Feature></Feature>"
+		],
+		"description": "Feature."
+	},
+
+	"DevTime": {
+		"prefix": "DevTime",
+		"body": [
+			"<DevTime></DevTime>"
+		],
+		"description": "Defines number of months this feature takes to develop."
+	},
+
+	"Innovation": {
+		"prefix": "Innovation",
+		"body": [
+			"<Innovation></Innovation>"
+		],
+		"description": "Number between 0-12 defines how innovative this feature is."
+	},
+
+	"Usability": {
+		"prefix": "Usability",
+		"body": [
+			"<Usability></Usability>"
+		],
+		"description": "Number between 0-12 defines how usable this feature is."
+	},
+
+	"Stability": {
+		"prefix": "Stability",
+		"body": [
+			"<Stability></Stability>"
+		],
+		"description": "Number between 0-12 defines how stable this feature is."
+	},
+
+	"CodeArt": {
+		"prefix": "CodeArt",
+		"body": [
+			"<CodeArt></CodeArt>"
+		],
+		"description": "Number between 0-1, 0 being this feature needs only art, and 1 meaning this feature needs only code."
+	},
+
+	"Delete": {
+		"prefix": "Delete",
+		"body": [
+			"<Delete></Delete>"
+		],
+		"description": "Delete tag."
+	},
+
+	"ArtCategory": {
+		"prefix": "ArtCategory",
+		"body": [
+			"<ArtCategory></ArtCategory>"
+		],
+		"description": "Art Category allows a feature art category to be diferent from the code category."
+	},
+
+	"Server": {
+		"prefix": "Server",
+		"body": [
+			"<Server></Server>"
+		],
+		"description": "this will set how many mbps per active user this feature will use."
+	},
+
+	"Dependency": {
+		"prefix": "Dependency",
+		"body": [
+			"<Dependency></Dependency>"
+		],
+		"description": "Sets a depency for this feature."
+	},
+
+	"SoftwareCategory": {
+		"prefix": "SoftwareCategory",
+		"body": [
+			"<SoftwareCategory></SoftwareCategory>"
+		],
+		"description": "Limites feature to diffent software categories of parent software type."
+	},
+
+	"New_CompanyType": {
+		"prefix": "New CompanyType",
+		"body": [
+			"<CompanyType>",
+			"    <Specialization></Specialization>",
+			"    <PerYear></PerYear>",
+			"    <Min></Min>",
+			"    <Max></Max>",
+			"    <Types>",
+			"        <Type Software=''></Type>",
+			"    </Types>",
+			"</CompanyType>"
+		],
+		"description": ""
+	},
+
+	"CompanyType": {
+		"prefix": "CompanyType",
+		"body": [
+			"<CompanyType></CompanyType>"
+		],
+		"description": "Company type tag."
+	},
+
+	"Specialization": {
+		"prefix": "Specilization",
+		"body": [
+			"<Specilization></Specilization>"
+		],
+		"description": "Company specilization."
+	},
+
+	"PerYear": {
+		"prefix": "PearYear",
+		"body": [
+			"<PerYear></PerYear>"
+		],
+		"description": "Chance of this type of company being founded each year."
+	},
+
+	"Min": {
+		"prefix": "Min",
+		"body": [
+			"<Min></Min>"
+		],
+		"description": "Minimum number of company type at any given time."
+	},
+
+	"Max": {
+		"prefix": "Max",
+		"body": [
+			"<Max></Max>"
+		],
+		"description": "Maximum number of company type at any given time."
+	},
+
+	"Types": {
+		"prefix": "Types",
+		"body": [
+			"<Types>",
+			"</Types>"
+		],
+		"description": ""
+	},
+
+	"NameGen": {
+		"prefix": "NameGen",
+		"body": [
+			"<NameGen></NameGen>"
+		],
+		"description": "Name generator for company types."
+	},
+
+	"New_PersonalityGraph": {
+		"prefix": "New PersonalityGraph",
+		"body": [
+			"<PersonalityGraph>",
+			"    <Personalities>",
+			"        <Personality>",
+			"            <Name></Name>",
+			"            <WorkLean></WorkLean>",
+			"            <Social></Social>",
+			"            <LazyStress></LazyStress>",
+			"            <Relationships>",
+			"                <Relation></Relation>",
+			"            </Relationships>",
+			"         <Personality>",
+			"    </Personalities>",
+			"",
+			"    <Incompatibilities>",
+			"        <Incompatible>",
+			"            <Personality></Personality>",
+			"        </Incompatible>",
+			"    </Incompatibilities>",
+			"",
+			"</PersonalityGraph>"
+		],
+		"description": ""
+	},
+
+	"PersonalityGraph": {
+		"prefix": "PersonalityGraph",
+		"body": [
+			"<PersonalityGraph></PersonalityGraph>"
+		],
+		"description": "Base structure for personality type."
+	},
+
+	"Personalities": {
+		"prefix": "Personalities",
+		"body": [
+			"<Personalities></Personalities>"
+		],
+		"description": "Insert all your personalities here."
+	},
+
+	"New_Personality": {
+		"prefix": "New Personality",
+		"body": [
+			"<Personality>",
+			"    <Name></Name>",
+			"    <WorkLean></WorkLean>",
+			"    <Social></Social>",
+			"    <LazyStress></LazyStress>",
+			"    <Relationships>",
+			"        <Relation></Relation>",
+			"    </Relationships>",
+			"<Personality>"
+		],
+		"description": ""
+	},
+
+	"Personality": {
+		"prefix": "Personality",
+		"body": [
+			"<Personality></Personality>"
+		],
+		"description": "Where all values for personality are stored."
+	},
+
+	"WorkLean": {
+		"prefix": "WorkLean",
+		"body": [
+			"<WorkLean></WorkLean>"
+		],
+		"description": "Work lean -1 is hard worker, and 1 is easy learner."
+	},
+
+	"Social": {
+		"prefix": "Social",
+		"body": [
+			"<Social></Social>"
+		],
+		"description": "Social -1 is independent, and 1 is social."
+	},
+
+	"LazyStress": {
+		"prefix": "LazyStress",
+		"body": [
+			"<LazyStress></LazyStress>"
+		],
+		"description": "Lazy stress -1 is lazy, and 1 is stressed."
+	},
+	
+	"Relationships": {
+		"prefix": "Relationships",
+		"body": [
+			"<Relationships>",
+			"</Relationships>"
+		],
+		"description": "Relationships to contain all your relations."
+	},
+
+	"Relation": {
+		"prefix": "Relation",
+		"body": [
+			"<Relation Name=''></Relation>"
+		],
+		"description": ""
+	},
+
+	"New_Incompatibilities": {
+		"prefix": "New Incompatibilities",
+		"body": [
+			"<Incompatibilities>",
+			"    <Incompatible>",
+			"        <Personality></Personality>",
+			"    </Incompatible>",
+			"</Incompatibilities>"
+		],
+		"description": "New incompatibilities to contain all your incompatibilities."
+	},
+
+	"Incompatibilities": {
+		"prefix": "Incompatibilities",
+		"body": [
+			"<Incompatibilities></Incompatibilities>"
+		],
+		"description": "Incompatibilities to contain all your incompatibilities."
+	},
+
+	"Incompatible": {
+		"prefix": "Incompatible",
+		"body": [
+			"<Incopatible></Incompatible>"
+		],
+		"description": "Incompatible personalities."
+	}
+}

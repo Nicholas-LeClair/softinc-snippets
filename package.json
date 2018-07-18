@@ -1,0 +1,25 @@
+{
+    "name": "softinc-snippets",
+    "displayName": "Software Inc. Snippets",
+    "description": "Snippets for Software Inc XML files.",
+    "version": "1.0",
+    "publisher": "Nickal",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/xmlSnippets.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/txtSnippets.json"
+            }
+        ]
+    }
+}

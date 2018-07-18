@@ -1,0 +1,36 @@
+{
+	"New_BasicNameGenerator": {
+		"prefix": "New Basic Name Generator",
+		"body": [
+			"-start(base)",
+			"-base(stop)",
+			"Insert company names here(Don't forget to delete this text though).",
+			"-end(stop)"
+		],
+		"description": "Basic name generator."
+	},
+
+	"Start": {
+		"prefix": "Start",
+		"body": [
+			"-start(base)"
+		],
+		"description": ""
+	},
+
+	"Base": {
+		"prefix": "Base",
+		"body": [
+			"-base(stop)"
+		],
+		"description": ""
+	},
+
+	"End": {
+		"prefix": "End",
+		"body": [
+			"-end(stop)"
+		],
+		"description": ""
+	}
+}
