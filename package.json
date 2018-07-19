@@ -2,7 +2,7 @@
     "name": "softinc-snippets",
     "displayName": "Software Inc. Snippets",
     "description": "Snippets for Software Inc XML files.",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "icon": "icon.png",
     "license": "MIT",
     "repository": {
@@ -10,8 +10,9 @@
         "url": "https://github.com/Nicholas-LeClair/softinc-snippets"
     },
     "publisher": "Nickal",
-    "galleryBanner": {
-        "color": "#151515"
+    "galleryBanner": {        
+        "color": "#131313",
+        "theme": "dark"
     },
     "engines": {
         "vscode": "^1.25.0"
@@ -19,6 +20,14 @@
     "categories": [
         "Snippets"
     ],
+
+    "keywords": [
+        "snippets",
+        "software",
+        "inc",
+        "software inc"
+    ],
+
     "contributes": {
         "snippets": [
             {
