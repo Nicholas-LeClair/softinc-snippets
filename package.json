@@ -10,6 +10,9 @@
         "url": "https://github.com/Nicholas-LeClair/softinc-snippets"
     },
     "publisher": "Nickal",
+    "galleryBanner": {
+        "color": "#151515"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },

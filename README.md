@@ -4,6 +4,8 @@
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code%20MarketPlace-V%201.0-246ee5.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Nickal.softinc-snippets)
 [![MIT License](https://img.shields.io/badge/License-MIT-e52424.svg?style=for-the-badge)](https://github.com/Nicholas-LeClair/softinc-snippets/blob/master/LICENSE)
 
+![DemoGif](https://github.com/Nicholas-LeClair/softinc-snippets/blob/master/videos/README.gif)
+
 #### Please refer to the mod documentation for a full understanding: https://softwareinc.coredumping.com/wiki/index.php/Modding
 
 ## Directions
