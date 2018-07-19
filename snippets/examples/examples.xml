@@ -6,7 +6,7 @@
     <Random></Random>
 
     <Categories>
-        <Category Name=''>
+        <Category Name="">
             <Description></Description>
             <Unlock></Unlock>
             <Popularity></Popularity>
@@ -22,7 +22,7 @@
     <NameGenerator></NameGenerator>
 
    <Features>
-       <Feature Forced=''>
+       <Feature Forced="">
             <Name></Name>
             <Category></Category>
             <Description></Description>

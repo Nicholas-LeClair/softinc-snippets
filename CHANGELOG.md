@@ -1,6 +1,9 @@
 # Change Log
 
-## [Released]
+# Released
+- V 1.0.4
+    * Changed single quotes to double quotes.
+
 - V 1.0.3
     * Fixed README
     * Fixed GalleryBanner

@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/badge/GitHub%20Release-V%201.0-ff5100.svg?style=for-the-badge)](https://github.com/Nicholas-LeClair/softinc-snippets/releases)
 [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code%20MarketPlace-V%201.0-246ee5.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Nickal.softinc-snippets)
-[![Patch](https://img.shields.io/badge/Patch-3-246ee5.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Nickal.softinc-snippets)
+[![Patch](https://img.shields.io/badge/Patch-4-246ee5.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Nickal.softinc-snippets)
 [![MIT License](https://img.shields.io/badge/License-MIT-e52424.svg?style=for-the-badge)](https://github.com/Nicholas-LeClair/softinc-snippets/blob/master/LICENSE)
 
 ![DemoGif](https://raw.githubusercontent.com/Nicholas-LeClair/softinc-snippets/master/videos/README.gif)
@@ -77,7 +77,7 @@ Just start typing the name of the tag you want and it should pop up with options
     <Random></Random>
 
     <Categories>
-        <Category Name=''>
+        <Category Name=""">
             <Description></Description>
             <Unlock></Unlock>
             <Popularity></Popularity>
@@ -93,7 +93,7 @@ Just start typing the name of the tag you want and it should pop up with options
     <NameGenerator></NameGenerator>
 
    <Features>
-       <Feature Forced=''>
+       <Feature Forced=""">
             <Name></Name>
             <Category></Category>
             <Description></Description>
@@ -171,7 +171,7 @@ Just start typing the name of the tag you want and it should pop up with options
     <Min></Min>
     <Max></Max>
     <Types>
-        <Type Software=''></Type>
+        <Type Software="""></Type>
     </Types>
 </CompanyType>
 ```

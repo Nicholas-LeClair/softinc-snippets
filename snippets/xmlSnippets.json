@@ -10,7 +10,7 @@
 			"  <Random></Random>",
 			"",
 			"  <Categories>",
-			"    <Category Name=''>",
+			"    <Category Name=\"\">",
 			"      <Description></Description>",
 			"      <Unlock></Unlock>",
 			"      <Popularity></Popularity>",
@@ -26,7 +26,7 @@
 			"  <NameGenerator></NameGenerator>",
 			"",
 			"  <Features>",
-			"    <Feature Forced=''>",
+			"    <Feature Forced=\"\">",
 			"      <Name></Name>",
 			"      <Category></Category>",
 			"      <Description></Description>",
@@ -174,7 +174,7 @@
 	"NewFeature": {
 		"prefix": "New Feature",
 		"body": [
-			"<Feature Forced=''>",
+			"<Feature Forced=\"\">",
 			"  <Name></Name>",
 			"  <Category></Category>",
 			"  <Description></Description>",
@@ -190,7 +190,7 @@
 	"Feature": {
 		"prefix": "Feature",
 		"body": [
-			"<Feature Forced=''></Feature>"
+			"<Feature Forced=\"\"></Feature>"
 		],
 		"description": "Feature."
 	},
@@ -273,7 +273,7 @@
 			"  <Min></Min>",
 			"  <Max></Max>",
 			"  <Types>",
-			"    <Type Software=''></Type>",
+			"    <Type Software=\"\"></Type>",
 			"  </Types>",
 			"</CompanyType>"
 		],
@@ -423,7 +423,7 @@
 	"Relation": {
 		"prefix": "Relation",
 		"body": [
-			"<Relation Name=''></Relation>"
+			"<Relation Name=\"\"></Relation>"
 		],
 		"description": ""
 	},
