@@ -1,37 +1,37 @@
 <SoftwareType>
-    <Name></Name>
-    <Unlock></Unlock>
-    <Category></Category>
-    <Description></Description>
-    <Random></Random>
+  <Name></Name>
+  <Unlock></Unlock>
+  <Category></Category>
+  <Description></Description>
+  <Random></Random>
 
-    <Categories>
-        <Category Name="">
-            <Description></Description>
-            <Unlock></Unlock>
-            <Popularity></Popularity>
-            <Retention></Retention>
-            <TimeScale></TimeScale>
-            <Iterative></Iterative>
-        </Category>
-    </Categories>
+  <Categories>
+    <Category Name="">
+      <Description></Description>
+      <Unlock></Unlock>
+      <Popularity></Popularity>
+      <Retention></Retention>
+      <TimeScale></TimeScale>
+      <Iterative></Iterative>
+    </Category>
+  </Categories>
 
-    <OSSpecific></OSSpecific>
-    <OneClient></OneClient>
-    <InHouse></InHouse>
-    <NameGenerator></NameGenerator>
+  <OSSpecific></OSSpecific>
+  <OneClient></OneClient>
+  <InHouse></InHouse>
+  <NameGenerator></NameGenerator>
 
-   <Features>
-       <Feature Forced="">
-            <Name></Name>
-            <Category></Category>
-            <Description></Description>
-            <DevTime></DevTime>
-            <Innovation></Innovation>
-            <Usability></Usability>
-            <Stability></Stability>
-            <CodeArt></CodeArt>
-        </Feature>
-   </Features>
+  <Features>
+    <Feature Forced="">
+      <Name></Name>
+      <Category></Category>
+      <Description></Description>
+      <DevTime></DevTime>
+      <Innovation></Innovation>
+      <Usability></Usability>
+      <Stability></Stability>
+      <CodeArt></CodeArt>
+    </Feature>
+  </Features>
 
-</SoftwareType>
+</SoftwareType> 

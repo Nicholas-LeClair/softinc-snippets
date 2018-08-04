@@ -458,5 +458,510 @@
 			"<Force></Force>"
 		],
 		"description": "Whether this type of company should be created on the first day."
+	},
+
+	"NewMaterialType": {
+		"prefix": "New Material Type",
+		"body": [
+			"<CoolPack>",
+			"   <EnterNameHere>",
+			"      <Category></Category>",
+			"      <Base></Base>",
+			"      <Bump></Bump>",
+			"      <Extra></Extra>",
+			"      <Skirting></Skirting>",
+			"   </EnterNameHere>",
+			"</CoolPack>"
+		],
+		"description": "Creates new material XML structure."
+	},
+
+	"CoolPack": {
+		"prefix": "Cool Pack",
+		"body": [
+			"<CoolPack></CoolPack>"
+		],
+		"description": "Base tag for material type."
+	},
+
+	"NewMaterial": {
+		"prefix": "New Material",
+		"body": [
+			"<EnterNameHere>",
+			"   <Category></Category>",
+			"   <Base></Base>",
+			"   <Bump></Bump>",
+			"   <Extra></Extra>",
+			"   <Skirting></Skirting>",
+			"</EnterNameHere>"
+		],
+		"description": "New material adds a material."
+	},
+
+	"Base": {
+		"prefix": "Base",
+		"body": [
+			"<Base></Base>"
+		],
+		"description": "Base texture."
+	},
+
+	"Bump": {
+		"prefix": "Bump",
+		"body": [
+			"<Bump></Bump>"
+		],
+		"description": "Bump texture also known as normal texture."
+	},
+
+	"Extra": {
+		"prefix": "Extra",
+		"body": [
+			"<Extra></Extra>"
+		],
+		"description": "Controls how lighting affects the material."
+	},
+
+	"Skirting": {
+		"prefix": "Skirting",
+		"body": [
+			"<Skirting></Skirting>"
+		],
+		"description": "This can be set to either true or false."
+	},
+
+	"FloorType": {
+		"prefix": "Floor Type",
+		"body": [
+			"<FloorType></FloorType>"
+		],
+		"description": "Sets floory type."
+	},
+
+	"NewFurnitureType": {
+		"prefix": "New Furniture Type",
+		"body": [
+			"<Root Base=\"\" Thumbnail=\"\" UpgradeFrom=\"\">",
+			"<Models>",
+			"   <Model>",
+			"      <File>BigServerRack.obj</File>",
+			"      <Position>0,0,0</Position>",
+			"      <Rotation>0,0,0</Rotation>",
+			"      <Scale>1,1,1</Scale>",
+			"   </Model>",
+			"</Models>",
+			"<InteractionPoints>",
+			"   <InteractionPoint>",
+			"      <Name>Repair</Name>",
+			"      <Position>0,0,0</Position>",
+			"      <Rotation>0,0,0</Rotation>",
+			"      <Animation>Repair</Animation>",
+			"      <Child>0</Child>",
+			"   </InteractionPoint>",
+			"   <InteractionPoint>",
+			"      <Name>Repair</Name>",
+			"      <Position>0,0,0</Position>",
+			"      <Rotation>0,0,0</Rotation>",
+			"      <Animation>Repair</Animation>",
+			"      <Child>0</Child>",
+			"   </InteractionPoint>",
+			"</InteractionPoints>",
+			"<Furniture>",
+			"   <Cost>0</Cost>",
+			"   <Wattage>0</Wattage>",
+			"   <Noisiness>0</Noisiness>",
+			"   <UnlockYear>0</UnlockYear>",
+			"   <ButtonDescription></ButtonDescription>",
+			"   <ColorPrimaryDefault>0,0,0,0</ColorPrimaryDefault>",
+			"   <PrimaryColorName>0,0,0,0</PrimaryColorName>",
+			"   <ColorSecondaryDefault>0,0,0,0</ColorSecondaryDefault>",
+			"   <ColorTertiaryDefault>0,0,0,0</ColorTertiaryDefault>",
+			"   <ColorSecondaryEnabled></ColorSecondaryEnabled>",
+			"   <ColorTertiaryEnabled></ColorTertiaryEnabled>",
+			"   <ForceColorSecondary></ForceColorSecondary>",
+			"   <ForceColorTertiary></ForceColorTertiary>",
+			"   <PrimaryColorName></PrimaryColorName>",
+			"   <SecondaryColorName></SecondaryColorName>",
+			"   <TertiaryColorName></TertiaryColorName>",
+			"   <BuildBoundary></BuildBoundary>",
+			"   <NavBoundary></NavBoundary>",
+			"   <Height1>0</Height1>",
+			"   <Height2>0</Height2>",
+			"   <OnXEdge>True</OnXEdge>",
+			"</Furniture>",
+			"<Upgradable>",
+			"   <UpgradePrice>0</UpgradePrice>",
+			"</Upgradable>",
+			"<Server>",
+			"   <Power>0</Power>",
+			"</Server>",
+			"<BoxCollider>",
+			"   <center>0,0,0</center>",
+			"<size>0,0,0,</size>",
+			"</BoxCollider>",
+		"</Root>"
+		],
+		"description": "Creates a new base furniture type."
+	},
+
+	"NewModel": {
+		"prefix": "New Model",
+		"body": [
+			"<Model>",
+			"   <File></File>",
+			"   <Position></Position>",
+			"   <Rotation></Rotation>",
+			"   <Scale></Scale>",
+			"</Model>"
+		],
+		"description": "Creates a new model."
+	},
+
+	"NewInteractionPoint": {
+		"prefix": "New Interaction Point",
+		"body": [
+			"<InteractionPoint>",
+			"   <Name></Name>",
+			"   <Position></Position>",
+			"   <Rotation></Rotation>",
+			"   <Animation></Animation>",
+			"   <Child></Child>",
+			"</InteractionPoint>"
+		],
+		"description": "Creates a new interaction point."
+	},
+
+	"NewFurniture": {
+		"prefix": "New Furniture",
+		"body": [
+			"<Furniture>",
+			"   <Cost></Cost>",
+			"   <Wattage></Wattage>",
+			"   <Noisiness></Noisiness>",
+			"   <UnlockYear></UnlockYear>",
+			"   <ButtonDescription></ButtonDescription>",
+			"   <ColorPrimaryDefault></ColorPrimaryDefault>",
+			"   <PrimaryColorName></PrimaryColorName>",
+			"   <ColorSecondaryDefault></ColorSecondaryDefault>",
+			"   <ColorTertiaryDefault></ColorTertiaryDefault>",
+			"   <ColorSecondaryEnabled></ColorSecondaryEnabled>",
+			"   <ColorTertiaryEnabled></ColorTertiaryEnabled>",
+			"   <ForceColorSecondary></ForceColorSecondary>",
+			"   <ForceColorTertiary></ForceColorTertiary>",
+			"   <PrimaryColorName></PrimaryColorName>",
+			"   <SecondaryColorName></SecondaryColorName>",
+			"   <TertiaryColorName></TertiaryColorName>",
+			"   <BuildBoundary></BuildBoundary>",
+			"   <NavBoundary></NavBoundary>",
+			"   <Height1></Height1>",
+			"   <Height2></Height2>",
+			"   <OnXEdge></OnXEdge>",
+			"</Furniture>"
+		],
+		"description": "Creates a new furniture item."
+	},
+	
+	"Root": {
+		"prefix": "Root",
+		"body": [
+			"<Root Base=\"\" Thumbnail=\"\" UpgradeFrom=\"\"></Root>"
+		],
+		"description": ""
+	},
+
+	"Models": {
+		"prefix": "Models",
+		"body": [
+			"<Models></Models>"
+		],
+		"description": "Models tag to contain all of your models."
+	},
+
+	"Model": {
+		"prefix": "Model",
+		"body": [
+			"<Model></Model>"
+		],
+		"description": "Model tag."
+	},
+
+	"InteractionPoints": {
+		"prefix": "Interaction Points",
+		"body": [
+			"<InteractionPoints></InteractionPoints>"
+		],
+		"description": "InteractionPoints tag to hold all of your interaction points."
+	},
+
+	"InteractionPoint": {
+		"prefix": "Interaction Point",
+		"body": [
+			"<InteractionPoint></InteractionPoint>"
+		],
+		"description": "InteractionPoint tag."
+	},
+
+	"Furniture": {
+		"prefix": "Furniture",
+		"body": [
+			"<Furniture></Furniture>"
+		],
+		"description": "Furniture tag."
+	},
+
+	"Upgradable": {
+		"prefix": "Upgradable",
+		"body": [
+			"<Upgradable></Upgradable>"
+		],
+		"description": "Upgradable tag."
+	},
+
+	"BoxCollider": {
+		"prefix": "Box Collider",
+		"body": [
+			"<BoxCollider></BoxCollider>"
+		],
+		"description": "BoxCollider tag."
+	},
+
+	"Size": {
+		"prefix": "Size",
+		"body": [
+			"<size></size>"
+		],
+		"description": "Size tag."
+	},
+
+	"File": {
+		"prefix": "File",
+		"body": [
+			"<File></File>"
+		],
+		"description": "File of the 3d model."
+	},
+
+	"Position": {
+		"prefix": "Position",
+		"body": [
+			"<Position></Position>"
+		],
+		"description": "Determines position of model."
+	},
+
+	"Rotation": {
+		"prefix": "Rotation",
+		"body": [
+			"<Rotation></Rotation>"
+		],
+		"description": "Rotation of your model."
+	},
+
+	"Scale": {
+		"prefix": "Scale",
+		"body": [
+			"<Scale></Scale>"
+		],
+		"description": "Scale of your model."
+	},
+
+	"Animation": {
+		"prefix": "Animation",
+		"body": [
+			"<Animation></Animation>"
+		],
+		"description": "Animation tag."
+	},
+
+	"Child": {
+		"prefix": "Child",
+		"body": [
+			"<Child></Child>"
+		],
+		"description": "Child tag."
+	},	
+
+	"Cost": {
+		"prefix": "Cost",
+		"body": [
+			"<Cost></Cost>"
+		],
+		"description": "Cost of your furniture."
+	},
+
+	"Wattage": {
+		"prefix": "Wattage",
+		"body": [
+			"<Wattage></Wattage>"
+		],
+		"description": "Wattage of your furniture."
+	},
+
+	"Noisiness": {
+		"prefix": "Noisiness",
+		"body": [
+			"<Noisiness></Noisiness>"
+		],
+		"description": "Noisiness of furniture."
+	},
+
+	"UnlockYear": {
+		"prefix": "Unlock Year",
+		"body": [
+			"<UnlockYear></UnlockYear>"
+		],
+		"description": "UnlockYear of your furniture."
+	},
+
+	"ButtonDescription": {
+		"prefix": "Button Description",
+		"body": [
+			"<ButtonDescription><ButtonDescription>"
+		],
+		"description": "ButtonDescription tag."
+	},
+
+	"ColorPrimaryDefault": {
+		"prefix": "Color Primary Default",
+		"body": [
+			"<ColorPrimaryDefault></ColorPrimaryDefault>"
+		],
+		"description": "ColorPrimaryDefault tag."
+	},
+
+	"PrimaryColorName": {
+		"prefix": "Primary Color Name",
+		"body": [
+			"<PrimaryColorName></PrimaryColorName>"
+		],
+		"description": "PrimaryColorName tag."
+	},
+
+	"ColorSecondaryDefault": {
+		"prefix": "Color Secondary Default",
+		"body": [
+			"<ColorSecondaryDefault></ColorSecondaryDefault>"
+		],
+		"description": "ColorSecondaryDefault tag."
+	},
+
+	"ColorTertiaryDefault": {
+		"prefix": "Color Tertiary Default",
+		"body": [
+			"<ColorTertiaryDefault></ColorTertiaryDefault>"
+		],
+		"description": "ColorTertiaryDefault tag."
+	},
+
+	"ColorSecondaryEnabled": {
+		"prefix": "Color Secondary Enabled",
+		"body": [
+			"<ColorSecondaryEnabled></ColorSecondaryEnabled>"
+		],
+		"description": "ColorSecondaryEnabled tag."
+	},
+
+	"ColorTertiaryEnabled": {
+		"prefix": "Color Tertiary Enabled",
+		"body": [
+			"<ColorTertiaryEnabled></ColorTertiaryEnabled>"
+		],
+		"description": "ColorTertiaryEnabled tag."
+	},
+
+	"ForceColorSecondary": {
+		"prefix": "Force Color Secondary",
+		"body": [
+			"<ForceColorSecondary></ForceColorSecondary>"
+		],
+		"description": "ForceColorSecondary tag."
+	},
+
+	"ForceColorTertiary": {
+		"prefix": "Force Color Tertiary",
+		"body": [
+			"<ForceColorTertiary></ForceColorTertiary>"
+		],
+		"description": "ForceColorTertiary tag."
+	},
+
+	"SecondaryColorName": {
+		"prefix": "Secondary Color Name",
+		"body": [
+			"<SecondaryColorName></SecondaryColorName>"
+		],
+		"description": "SecondaryColorName tag."
+	},
+
+	"TertiaryColorName": {
+		"prefix": "Tertiary Color Name",
+		"body": [
+			"<TertiaryColorName></TertiaryColorName>"
+		],
+		"description": "TertiaryColorName tag."
+	},
+
+	"BuildBoundary": {
+		"prefix": "Build Boundary",
+		"body": [
+			"<BuildBoundary></BuildBoundary>"
+		],
+		"description": "BuildBoundary tag."
+	},
+
+	"NavBoundary": {
+		"prefix": "Nav Boundary",
+		"body": [
+			"<NavBoundary></NavBoundary>"
+		],
+		"description": "NavBoundary tag."
+	},
+
+	"Height1": {
+		"prefix": "Height1",
+		"body": [
+			"<Height1></Height1>"
+		],
+		"description": "Height1 tag."
+	},
+
+	"Height2": {
+		"prefix": "Height2",
+		"body": [
+			"<Height2></Height2>"
+		],
+		"description": "Height2 tag."
+	},
+
+	"OnXEdge": {
+		"prefix": "OnXEdge",
+		"body": [
+			"<OnXEdge></OnXEdge>"
+		],
+		"description": "OnXEdge tag."
+	},
+
+	"UpgradePrice": {
+		"prefix": "Upgrade Price",
+		"body": [
+			"<UpgradePrice></UpgradePrice>"
+		],
+		"description": "UpgradePrice tag."
+	},
+
+	"Power": {
+		"prefix": "Power",
+		"body": [
+			"<Power></Power>"
+		],
+		"description": "Power tag."
+	},
+
+	"Center": {
+		"prefix": "Center",
+		"body": [
+			"<center></center>"
+		],
+		"description": "center tag."
 	}
 }

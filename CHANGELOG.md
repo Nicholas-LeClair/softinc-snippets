@@ -1,6 +1,10 @@
 # Change Log
 
 # Released
+- V 1.1
+    * Added furniture modding snippets.
+    * Added material modding snippets.
+
 - V 1.0.4
     * Changed single quotes to double quotes.
 
